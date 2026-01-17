@@ -36,7 +36,7 @@ $d = \frac{\lambda}{2}$
 
 Given that the formula for wavelength:  $\lambda = \frac{v}{f}$,  where v is the wave velocity (sound) and f is the frequency, the wavelength of 40 KHz sound is:
 
-$\lambda = \frac{343 m/s}{40 KHz} =$ 8.575 m. And taking into consideration the spacing between elements is 16mm, our $\frac{d}{\lambda} = $ 1.87.  In this case, rather than us getting a nice plot like this:
+$\lambda = \frac{343 m/s}{40 KHz} =$ 8.575 m. And taking into consideration the spacing between elements is 16mm, our $\frac{d}{\lambda} = $ 1.87.  In this case, at 0 degrees steering angle, rather than us getting a nice plot like this:
 
 <img width="392" height="587" alt="Screenshot 2026-01-17 143053" src="https://github.com/user-attachments/assets/033ffd38-ef1c-49e6-9d8f-4b7fc28fa5fb" />
 
