@@ -15,8 +15,9 @@ be capable of running it.  The project is current for Vivado 2021.2.
 
 CAUTION! There's a false sense of safety with audible modulated ultrasound. From reading a few scientific papers on the subject, the best rule of thumb I could
 extract for 40 khz is to assume you're being exposed to levels 60 dB higher than what it actually sounds like. This is another reason why I like 11-12VDC.
-![Front_Image](https://user-images.githubusercontent.com/78199728/176317332-d1329611-d8d8-4863-ae41-bb6e8244707a.jpeg)<img src="176317332-d1329611-d8d8-4863-ae41-bb6e8244707a.jpg" alt="Description" width="300" height="200">
-![Back_Image](https://user-images.githubusercontent.com/78199728/176317351-4105629f-5049-4989-8cf0-8f61a7647e7e.jpeg)
+
+<img src="https://user-images.githubusercontent.com/78199728/176317332-d1329611-d8d8-4863-ae41-bb6e8244707a.jpeg" width="500">
+<img src="https://user-images.githubusercontent.com/78199728/176317351-4105629f-5049-4989-8cf0-8f61a7647e7e.jpeg" width="500">
 
 This is basically a project of novelty and not much use as a high-gain, directional transmitter. Because of the Shannon-Nyquist theorem:
 
