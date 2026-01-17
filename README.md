@@ -1,4 +1,4 @@
-# Phased_Array_Speaker
+# Ultrasonic Phased Array Transmitter
 This is a project receives audio via 3.5mm jack and transmits modulated ultrasound at 40 khz.
 Power can be supplied from ~9V - 18V DC, I've found the best results and cleanest sound at around 12 volts, or roughly 3 3.7V lithium ion batteries.
 The sound radiates directionally like a flashlight, and a joystick controls the direction in 5 degree increments from 
