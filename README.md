@@ -19,3 +19,18 @@ CAUTION! There's a false sense of safety with audible modulated ultrasound. From
 extract for 40 khz is to assume you're being exposed to levels 60 dB higher than what it actually sounds like. This is another reason why I like 11-12VDC.
 ![Front_Image](https://user-images.githubusercontent.com/78199728/176317332-d1329611-d8d8-4863-ae41-bb6e8244707a.jpeg)
 ![Back_Image](https://user-images.githubusercontent.com/78199728/176317351-4105629f-5049-4989-8cf0-8f61a7647e7e.jpeg)
+
+This is basically a project of novelty and not much use as a high-gain, directional transmitter. Because of the Shannon-Nyquist theorem:
+
+For a plane arriving at angle $\theta$, the phase progression between adjacent elements spaced by distance d is: $\Delta\phi = kd\sin (\theta) = \frac{2\pi}{\lambda}$
+
+The array cannot distinguish two different angles is they produce the same phase progression at a reapeat (modulo) of $2\pi$.  This ambiguity occurs when:  
+$kd(\sin(\theta_1) - \sin(\theta_2)) = 2\pi m$  ....... for any integer $m \neq 0$.
+
+Solving for element spacing: 
+$d = \frac{m\lambda}{\sin(\theta_1) - \sin(\theta_2)}$
+
+To prevent any ambiguity over all physically possible angles $(|\sin(\theta)| \leq 1)$, the spacing must satisfy:
+
+$d = \frac{\lambda}{2}
+
